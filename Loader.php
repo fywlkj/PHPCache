@@ -8,7 +8,7 @@
 
 require(__DIR__ . '/PHPCache.php');
 
-$conf = 'cache.json';
+$conf = 'cache.json'; //可选（默认cache.json）
 
 //set()方法 参数：key, value, time  true成功，false失败
 PHPCache::Loader($conf)->set('page', 2, 20);					
