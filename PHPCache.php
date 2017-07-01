@@ -11,13 +11,13 @@ class PHPCache
 
 	private $filename;
 	
-	private function __construct($filename)
+	private function __construct($filename = 'cache.json')
 	{
 		$this->filename = $filename;
 	}
 
 	//单例设计
-	static function Loader($filename = 'cache.json')
+	static function Loader()
 	{
 		if(self::$single)
 		{
@@ -25,7 +25,7 @@ class PHPCache
 		}
 		else
 		{
-			self::$single = new self($filename);
+			self::$single = new self();
 
 			return self::$single;
 		}
