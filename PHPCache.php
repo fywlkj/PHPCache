@@ -17,7 +17,7 @@ class PHPCache
 	}
 
 	//单例设计
-	static function Loader($filename)
+	static function Loader($filename = 'cache.json')
 	{
 		if(self::$single)
 		{
