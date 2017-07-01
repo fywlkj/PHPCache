@@ -20,6 +20,6 @@ PHPCache::Loader($conf)->get('page');
 PHPCache::Loader($conf)->delete('page');
 
 //clear()方法， 请空缓存
-$result = PHPCache::Loader($conf)->clear();
+PHPCache::Loader($conf)->clear();
 
 //日志文件 Cache.log
