@@ -1,7 +1,7 @@
 # PHPCache
-PHPCache文件缓存，过期清理
+PHPCache文件缓存，过期自动清理
 
-//$Cache = PHPCache::Loader('cache.json');
+//PHPCache::Loader('cache.json');
 
 //set()方法 参数：key, value, time  true成功，false失败
 
