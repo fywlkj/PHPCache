@@ -1,7 +1,7 @@
 <?php
 
 /* Cache data
- * Auther:devkepp
+ * Auther:devkeep
  * Date:2017.7.1
  */
 
