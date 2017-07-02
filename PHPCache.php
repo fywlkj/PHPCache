@@ -146,6 +146,8 @@ class PHPCache
 	//缓存验证
 	private function LoadVery($key)
 	{
+		$key = str_replace(' ', '', $key);
+		
 		if($key && is_string($key))
 		{
 			if(!file_exists($this->filename))
