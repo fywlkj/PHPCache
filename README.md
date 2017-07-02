@@ -9,6 +9,6 @@ PHPCache文件缓存，过期自动清理
 
 //delete()方法，参数：key  true成功，false失败
 
-//clear()方法， 请空缓存
+//flush()方法， 请空缓存
 
 //日志文件 Cache.log
