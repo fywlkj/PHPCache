@@ -114,8 +114,8 @@ class PHPCache
 		}
 	}
 
-	//clear
-	public function clear()
+	//flush
+	public function flush()
 	{
 		//缓存清空
 		if( file_put_contents($this->filename, '[]', LOCK_EX) )
