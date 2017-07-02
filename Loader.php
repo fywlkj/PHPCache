@@ -17,7 +17,7 @@ PHPCache::Loader()->get('page');
 //delete()方法，参数：key  true成功，false失败
 PHPCache::Loader()->delete('page');
 
-//clear()方法， 请空缓存
-PHPCache::Loader()->clear();
+//flush()方法， 请空缓存
+PHPCache::Loader()->flush();
 
 //日志文件 Cache.log
